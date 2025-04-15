@@ -1,7 +1,7 @@
 CMakeFiles/cap_template.dir/cli.c.obj: \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/cli.c \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/cli.h \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/flash_ops.h \
+ /home/qaisalhindi/capp/cap_template/task2/cli.c \
+ /home/qaisalhindi/capp/cap_template/task2/cli.h \
+ /home/qaisalhindi/capp/cap_template/task2/flash_ops.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
@@ -17,4 +17,4 @@ CMakeFiles/cap_template.dir/cli.c.obj: \
  /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
  /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/custom_fgets.h
+ /home/qaisalhindi/capp/cap_template/task2/custom_fgets.h

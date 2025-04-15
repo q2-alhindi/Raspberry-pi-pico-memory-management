@@ -3,21 +3,21 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-if(EXISTS "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt" AND EXISTS "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt" AND
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt")
+if(EXISTS "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt" AND EXISTS "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt" AND
+  "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt")
   message(STATUS
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt'"
+    "'/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: '/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -27,7 +27,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "/usr/bin/git"
             clone --no-checkout --progress --config "advice.detachedHead=false" "https://github.com/raspberrypi/picotool.git" "picotool-src"
-    WORKING_DIRECTORY "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps"
+    WORKING_DIRECTORY "/home/qaisalhindi/capp/cap_template/task2/build/_deps"
     RESULT_VARIABLE error_code
   )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -42,7 +42,7 @@ endif()
 execute_process(
   COMMAND "/usr/bin/git"
           checkout "2.0.0" --
-  WORKING_DIRECTORY "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src"
+  WORKING_DIRECTORY "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
@@ -54,20 +54,20 @@ if(init_submodules)
   execute_process(
     COMMAND "/usr/bin/git" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src"
+    WORKING_DIRECTORY "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src"
     RESULT_VARIABLE error_code
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: '/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt" "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt" "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitclone-lastrun.txt'")
 endif()

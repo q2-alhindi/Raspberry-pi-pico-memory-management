@@ -8,24 +8,33 @@
 #define FLASH_TARGET_OFFSET (256 * 1024) // The starting address for user data storage in flash memory (256 KB offset)
 #define FLASH_SIZE PICO_FLASH_SIZE_BYTES // The total available flash memory size
 
+// Track the last used offset to detect changes
+static uint32_t last_offset = UINT32_MAX; // Initialize to an invalid offset
 
 void flash_write_safe(uint32_t offset, const uint8_t *data, size_t data_len) {
     uint32_t flash_offset = FLASH_TARGET_OFFSET + offset;
 
     // Ensure that the write operation does not exceed the allocated flash memory space.
     if (flash_offset + sizeof(flash_data_t) > FLASH_TARGET_OFFSET + FLASH_SIZE) {
-        printf("Error: Write operation exceeds flash memory limit.\n");
+        printf("\nError: Write operation exceeds flash memory limit.\n");
         return;
     }
 
     // Read existing flash data to retrieve the previous write count.
-    // Suppress output to avoid unnecessary console logs.
     flash_data_t existing_data;
     flash_read_safe(offset, &existing_data, 1);
 
     // Prepare a new flash data structure to store the updated information.
     flash_data_t new_data;
-    new_data.write_count = existing_data.write_count + 1; // Increment the write count.
+    
+    // Reset write count to 1 if the offset has changed, otherwise increment
+    if (last_offset != offset) {
+        new_data.write_count = 1; // Reset to 1 on offset change
+        last_offset = offset;
+    } else {
+        new_data.write_count = existing_data.write_count + 1; // Increment the write count
+    }
+    
     new_data.data_len = data_len;
 
     // Clear the data buffer before writing to prevent leftover data issues.
@@ -54,7 +63,7 @@ void flash_read_safe(uint32_t offset, flash_data_t *out_data, int suppress_outpu
     // Ensure the read operation does not go beyond the available flash memory space.
     if (flash_offset + sizeof(flash_data_t) > FLASH_TARGET_OFFSET + FLASH_SIZE) {
         if (!suppress_output) {
-            printf("Error: Read operation exceeds flash memory limit.\n");
+            printf("\nError: Read operation exceeds flash memory limit.\n");
         }
         return;
     }
@@ -91,6 +100,7 @@ void flash_read_safe(uint32_t offset, flash_data_t *out_data, int suppress_outpu
     if (!suppress_output) {
         printf("\nRead Data: %s\n", out_data->data);
         printf("Write Count: %u\n", out_data->write_count);
+        printf("Data length: %u\n", out_data->data_len);
     }
 }
 
@@ -99,7 +109,7 @@ void flash_erase_safe(uint32_t offset) {
 
     // Ensure that the erase operation stays within valid memory boundaries.
     if (flash_offset >= FLASH_TARGET_OFFSET + FLASH_SIZE) {
-        printf("Error: Erase operation out of bounds.\n");
+        printf("\nError: Erase operation out of bounds.\n");
         return;
     }
 

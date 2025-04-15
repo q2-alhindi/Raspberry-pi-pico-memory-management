@@ -147,9 +147,9 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami++.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -346,8 +346,8 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/qaisalhindi/Documen
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami.c \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami.h \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
@@ -424,7 +424,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/qaisalhindi/Documents/p
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/main.cpp \
+CMakeFiles/picotool.dir/main.cpp.o: /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/main.cpp \
   /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
@@ -454,19 +454,19 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/tas
   /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
   /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
   /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/bintool.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/metadata.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/cli.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/clipp/clipp.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf/addresses.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf/elf.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf/elf_file.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/errors/errors.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/otp.h \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/bintool.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/metadata.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/cli.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/clipp/clipp.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf/addresses.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf/elf.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf/elf_file.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/errors/errors.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/otp.h \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -836,9 +836,9 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/tas
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/no_otp.cpp \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/otp.h \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/no_otp.cpp \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/otp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1154,6 +1154,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
@@ -1179,8 +1181,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
@@ -1230,9 +1230,9 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 
 /usr/include/c++/13/bitset:
 
-/usr/include/c++/13/bits/valarray_array.tcc:
+/usr/include/c++/13/bits/valarray_before.h:
 
-/usr/include/c++/13/bits/uses_allocator.h:
+/usr/include/c++/13/bits/valarray_array.tcc:
 
 /usr/include/c++/13/bits/unordered_map.h:
 
@@ -1263,6 +1263,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 /usr/include/c++/13/utility:
 
 /usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/bits/stl_deque.h:
 
 /usr/include/c++/13/bits/stl_algo.h:
 
@@ -1326,6 +1328,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
+/usr/include/c++/13/bits/atomic_base.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
@@ -1355,8 +1359,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/compare:
 
@@ -1406,7 +1408,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/metadata.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
@@ -1430,13 +1432,11 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/c++/13/bits/atomic_base.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
-
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/main.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -1456,6 +1456,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+/usr/include/c++/13/bits/streambuf.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
@@ -1470,19 +1472,11 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/qaisalhindi/Documents/pico/w1part1/t
 
 /usr/include/c++/13/vector:
 
-/usr/include/c++/13/bits/gslice_array.h:
-
-/usr/include/c++/13/new:
-
 /usr/include/c++/13/ext/alloc_traits.h:
 
-/usr/include/c++/13/deque:
-
-/home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
-
-/usr/include/inttypes.h:
-
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/clipp/clipp.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
@@ -1522,8 +1516,6 @@ data_locs.cpp:
 
 /usr/include/c++/13/bits/functexcept.h:
 
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/no_otp.cpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
@@ -1546,6 +1538,8 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/cli.h:
+
 /usr/include/c++/13/cerrno:
 
 /usr/include/c++/13/bits/unique_ptr.h:
@@ -1563,8 +1557,6 @@ data_locs.cpp:
 /usr/include/c++/13/bits/postypes.h:
 
 /usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/include/alloca.h:
 
@@ -1602,10 +1594,6 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/c++/13/bits/stl_deque.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami.c:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/time.h:
@@ -1617,10 +1605,6 @@ data_locs.cpp:
 /usr/include/c++/13/bits/localefwd.h:
 
 /usr/include/c++/13/type_traits:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -1641,8 +1625,6 @@ data_locs.cpp:
 /usr/include/stdio.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
 /usr/include/linux/errno.h:
 
@@ -1668,9 +1650,17 @@ data_locs.cpp:
 
 /usr/include/string.h:
 
+/usr/include/x86_64-linux-gnu/asm/ioctls.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
+
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/errors/errors.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -1689,6 +1679,10 @@ data_locs.cpp:
 /usr/include/c++/13/bits/erase_if.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf/elf.h:
 
 /usr/include/c++/13/ext/type_traits.h:
 
@@ -1709,10 +1703,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
-
-/usr/include/c++/13/bits/valarray_before.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf/addresses.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
@@ -1748,7 +1738,15 @@ data_locs.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami++.h:
+/usr/include/c++/13/deque:
+
+/home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
+
+/usr/include/inttypes.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami++.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami.c:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
@@ -1762,13 +1760,19 @@ data_locs.cpp:
 
 /usr/include/c++/13/typeinfo:
 
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/no_otp.cpp:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+
 /usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bits/locale_facets.h:
 
 /usr/include/c++/13/bits/sstream.tcc:
 
@@ -1795,8 +1799,6 @@ data_locs.cpp:
 /usr/include/c++/13/stdexcept:
 
 /usr/include/c++/13/stdlib.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/cli.h:
 
 /usr/include/linux/limits.h:
 
@@ -1848,13 +1850,13 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf/elf_file.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/main.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
@@ -1870,17 +1872,11 @@ data_locs.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
-/usr/include/c++/13/bits/locale_facets.h:
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami.h:
 
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
+/home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
 
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/errors/errors.h:
 
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
 
@@ -1906,11 +1902,11 @@ data_locs.cpp:
 
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
 
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
-
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
@@ -1930,30 +1926,34 @@ data_locs.cpp:
 
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/host/pico_platform/include/pico/platform.h:
 
-/home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
-
 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/bintool.h:
+/usr/include/c++/13/bits/gslice_array.h:
+
+/usr/include/c++/13/new:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/bintool.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/metadata.h:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf/addresses.h:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/otp.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/assert.h:
+
+/usr/include/c++/13/array:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/13/bits/algorithmfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/clipp/clipp.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf/elf_file.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/elf/elf.h:
-
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/otp.h:
-
-/usr/include/assert.h:
-
-/usr/include/asm-generic/ioctl.h:
-
-/usr/include/c++/13/array:
-
-/usr/include/c++/13/backward/auto_ptr.h:

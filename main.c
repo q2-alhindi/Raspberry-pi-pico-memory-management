@@ -12,6 +12,12 @@ int main() {
         sleep_ms(100);
     }
 
+    printf("Pico Flash Storage CLI\n");
+    printf("Available commands:\n");
+    printf("  FLASH_WRITE <offset> \"data\"\n");
+    printf("  FLASH_READ <offset> <length>\n");
+    printf("  FLASH_ERASE <offset>\n");
+
     // Command loop
     while (1) {
         printf("\nEnter command: ");
@@ -21,4 +27,3 @@ int main() {
 
     return 0;
 }
-

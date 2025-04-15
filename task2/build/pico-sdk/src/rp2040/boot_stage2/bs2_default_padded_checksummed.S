@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

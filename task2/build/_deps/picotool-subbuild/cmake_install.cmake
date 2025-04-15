@@ -1,4 +1,4 @@
-# Install script for directory: /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild
+# Install script for directory: /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

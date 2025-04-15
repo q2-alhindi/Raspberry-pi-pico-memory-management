@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/qaisalhindi/capp/cap_template/task2/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build/lib/mbedtls/3rdparty/everest/cmake_install.cmake")
+  include("/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build/lib/mbedtls/3rdparty/everest/cmake_install.cmake")
 
 endif()
 

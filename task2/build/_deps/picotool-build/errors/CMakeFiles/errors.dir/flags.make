@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/errors
+CXX_INCLUDES = -I/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/errors
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

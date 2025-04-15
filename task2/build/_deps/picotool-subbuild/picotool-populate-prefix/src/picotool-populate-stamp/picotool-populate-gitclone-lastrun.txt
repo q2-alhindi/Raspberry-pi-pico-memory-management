@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/bin/cmake;-P;/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake
-source_dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src
-work_dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps
+command=/usr/bin/cmake;-P;/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake
+source_dir=/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src
+work_dir=/home/qaisalhindi/capp/cap_template/task2/build/_deps
 repository=https://github.com/raspberrypi/picotool.git
 remote=origin
 init_submodules=TRUE

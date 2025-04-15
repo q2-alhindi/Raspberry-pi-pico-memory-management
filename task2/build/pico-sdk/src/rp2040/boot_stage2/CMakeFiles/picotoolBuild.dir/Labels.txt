@@ -1,14 +1,14 @@
 # Target labels
  picotoolBuild
 # Source files and their labels
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
-/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

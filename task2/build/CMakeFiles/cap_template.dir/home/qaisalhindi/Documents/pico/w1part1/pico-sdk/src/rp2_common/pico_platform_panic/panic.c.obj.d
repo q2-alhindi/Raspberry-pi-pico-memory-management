@@ -26,9 +26,9 @@ CMakeFiles/cap_template.dir/home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/generated/pico_base/pico/version.h \
+ /home/qaisalhindi/capp/cap_template/task2/build/generated/pico_base/pico/version.h \
  /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/generated/pico_base/pico/config_autogen.h \
+ /home/qaisalhindi/capp/cap_template/task2/build/generated/pico_base/pico/config_autogen.h \
  /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/boards/include/boards/pico.h \
  /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

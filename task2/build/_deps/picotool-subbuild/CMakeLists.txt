@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(picotool-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/raspberrypi/picotool.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "2.0.0" "GIT_PROGRESS" "true"
-                    SOURCE_DIR          "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src"
-                    BINARY_DIR          "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build"
+                    SOURCE_DIR          "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src"
+                    BINARY_DIR          "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

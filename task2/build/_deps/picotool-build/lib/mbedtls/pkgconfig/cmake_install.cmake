@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/qaisalhindi/capp/cap_template/task2/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedcrypto.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedcrypto.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedtls.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedtls.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedx509.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedx509.pc")
 endif()
 

@@ -1,4 +1,4 @@
-prefix=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps
+prefix=/home/qaisalhindi/capp/cap_template/task2/build/_deps
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

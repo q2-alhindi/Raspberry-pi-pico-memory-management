@@ -1,7 +1,7 @@
 CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami.c \
+ /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami.c \
  /usr/include/stdc-predef.h \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/lib/whereami/whereami.h \
+ /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/lib/whereami/whereami.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

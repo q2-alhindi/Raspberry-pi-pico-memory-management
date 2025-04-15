@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/tools/cmake_install.cmake")
+  include("/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/cmake_install.cmake")
+  include("/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/docs/cmake_install.cmake")
+  include("/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 

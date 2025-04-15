@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template
+CMAKE_SOURCE_DIR = /home/qaisalhindi/capp/cap_template/task2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build
+CMAKE_BINARY_DIR = /home/qaisalhindi/capp/cap_template/task2/build
 
 # Utility rule file for picotoolBuild.
 
@@ -77,52 +77,52 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build && $(MAKE)
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2040/boot_stage2/picotool/tmp/picotoolBuild-cfgcmd.txt
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/qaisalhindi/Documents/pico/w1part1/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src -B /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/qaisalhindi/Documents/pico/w1part1/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qaisalhindi/capp/cap_template/task2/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src -B /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-source_dirinfo.txt
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build && $(MAKE) install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build && $(MAKE) install
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -Dcfgdir= -P /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/tmp/picotoolBuild-mkdirs.cmake
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -Dcfgdir= -P /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/tmp/picotoolBuild-mkdirs.cmake
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch-info.txt
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build && /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool/picotool version 2.0.0
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build && /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool/picotool version 2.0.0
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update-info.txt
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qaisalhindi/capp/cap_template/task2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
 
 picotoolBuild: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
 picotoolBuild: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete
@@ -142,10 +142,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build: picotoolBuil
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean:
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/depend:
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/qaisalhindi/capp/cap_template/task2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaisalhindi/capp/cap_template/task2 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/capp/cap_template/task2/build /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/depend
 

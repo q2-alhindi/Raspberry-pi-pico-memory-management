@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template
+CMAKE_SOURCE_DIR = /home/qaisalhindi/capp/cap_template/task2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build
+CMAKE_BINARY_DIR = /home/qaisalhindi/capp/cap_template/task2/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/
 include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure:
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/CMakeLists.txt
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/qaisalhindi/capp/cap_template/task2/CMakeLists.txt
 
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make
@@ -78,10 +78,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build: p
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean:
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
+	cd /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/qaisalhindi/capp/cap_template/task2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaisalhindi/capp/cap_template/task2 /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/capp/cap_template/task2/build /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2 /home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend
 

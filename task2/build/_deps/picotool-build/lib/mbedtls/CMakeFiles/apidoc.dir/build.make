@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build
 
 # Utility rule file for apidoc.
 
@@ -75,10 +75,10 @@ lib/mbedtls/CMakeFiles/apidoc.dir/build: apidoc
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/build
 
 lib/mbedtls/CMakeFiles/apidoc.dir/clean:
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build/lib/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build/lib/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/clean
 
 lib/mbedtls/CMakeFiles/apidoc.dir/depend:
-	cd /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build/lib/mbedtls /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src /home/qaisalhindi/Documents/pico/w1part1/pico-sdk/lib/mbedtls /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build/lib/mbedtls /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/depend
 

@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src"
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-build"
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps"
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/tmp"
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp"
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src"
-  "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp"
+  "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src"
+  "/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-build"
+  "/home/qaisalhindi/capp/cap_template/task2/build/_deps"
+  "/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/tmp"
+  "/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp"
+  "/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src"
+  "/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/qaisalhindi/capp/cap_template/task2/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

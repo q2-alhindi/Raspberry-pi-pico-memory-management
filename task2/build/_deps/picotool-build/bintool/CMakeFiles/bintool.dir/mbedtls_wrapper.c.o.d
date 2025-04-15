@@ -1,7 +1,7 @@
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
+ /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
  /usr/include/stdc-predef.h \
- /home/qaisalhindi/Documents/pico/w1part1/task2/cap_template/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
