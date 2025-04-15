@@ -106,9 +106,9 @@ To run the project, follow these steps in order:
 In this task, the core flash memory functions are implemented to safely interact with the Raspberry Pi Pico’s onboard flash. These functions are read, write, and erase. The implementation includes bounds checking, interrupt handling, and proper use of the Pico SDK’s flash API to ensure reliable and persistent data storage.
 
 ### Elements 
-* Implement write functionality
-* Implement read functionality
-* Implement erase functionality
+* Write functionality
+* Read functionality
+* Erase functionality
 * Handle interrupts safely
 * Command-line interface support
 
