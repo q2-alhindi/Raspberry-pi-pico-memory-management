@@ -1,5 +1,0 @@
-/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool/picotool
-/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool/picotoolTargets.cmake
-/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool/picotoolTargets-release.cmake
-/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool/picotoolConfig.cmake
-/home/qaisalhindi/capp/cap_template/task2/build/_deps/picotool/picotoolConfigVersion.cmake
