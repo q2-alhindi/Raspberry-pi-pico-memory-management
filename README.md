@@ -109,6 +109,7 @@ In this task, the core flash memory functions are implemented to safely interact
 * Write functionality
 * Read functionality
 * Erase functionality
+* Bounds checking
 * Handle interrupts safely
 * Command-line interface support
 
